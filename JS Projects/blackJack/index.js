@@ -1,8 +1,13 @@
+//nickname requisition
 let player = {
-    name: "Per",
+    name: prompt("Set down your nickname"),
     chips: 200
 }
 
+//nickname paragraph render
+playerEl.textContent = player.name + ": $" + player.chips
+
+//global scope variables
 let cards = []
 let sum = 0
 let hasBlackJack = false
@@ -13,8 +18,9 @@ let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 let playerEl = document.getElementById("player-el")
 
-playerEl.textContent = player.name + ": $" + player.chips
 
+
+// function to get aleatory numbers with Math.random
 function getRandomCard() {
     let randomNumber = Math.floor( Math.random()*13 ) + 1
     if (randomNumber > 10) {
@@ -26,6 +32,7 @@ function getRandomCard() {
     }
 }
 
+//function who initializazed the game
 function startGame() {
     isAlive = true
     let firstCard = getRandomCard()
@@ -35,6 +42,7 @@ function startGame() {
     renderGame()
 }
 
+// function to render the game
 function renderGame() {
     cardsEl.textContent = "Cards: "
     for (let i = 0; i < cards.length; i++) {
@@ -54,7 +62,7 @@ function renderGame() {
     messageEl.textContent = message
 }
 
-
+//new card function - give's you a new card while you are alive in the game or dont get a blackjack
 function newCard() {
     if (isAlive === true && hasBlackJack === false) {
         let card = getRandomCard()
