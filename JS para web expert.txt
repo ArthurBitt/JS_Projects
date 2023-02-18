@@ -1,0 +1,48 @@
+Semana 1: Fundamentos do JavaScript
+
+Sintaxe básica do JavaScript
+Variáveis e tipos de dados
+Operadores e estruturas de controle
+Funções e escopo
+Eventos e DOM
+Semana 2: Programação orientada a objetos
+
+Classes e objetos
+Herança e polimorfismo
+Encapsulamento
+Interfaces e design patterns
+Semana 3: Aprofundando-se em JavaScript
+
+Funções de ordem superior
+Closures
+Promises e Async/Await
+Trabalhando com módulos
+Semana 4: ECMAScript 6 e além
+
+Arrow functions
+Let e const
+Classes e herança
+Template strings
+Semana 5: Fundamentos do desenvolvimento web
+
+HTML e CSS
+HTTP
+Princípios de acessibilidade
+Fundamentos de design responsivo
+Semana 6: Frameworks e bibliotecas JavaScript
+
+React
+Vue
+Angular
+Semana 7: APIs e banco de dados
+
+Consumindo APIs de terceiros
+Criando APIs com Node.js
+Fundamentos de bancos de dados relacionais
+Bancos de dados NoSQL
+Semana 8: Ferramentas de construção e projetos
+
+Webpack e Babel
+Construindo um projeto pessoal
+Participando de projetos de código aberto
+Participando de desafios de programação
